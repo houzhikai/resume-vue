@@ -36,3 +36,9 @@ export default {
   },
 };
 </script>
+<style scoped>
+.el-menu-item.is-active {
+  background: #1890ff !important;
+  color: white !important;
+}
+</style>

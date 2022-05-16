@@ -4,12 +4,23 @@
       <el-menu
         backgroundColor="#001529"
         activeTextColor="#ff6a00"
-        text-color="#fff"
+        text-color="#a6aaae"
         :unique-opened="false"
         style="height: 100vh; width: 200px"
         :default-openeds="current"
       >
-        <div class="title">智能操作平台</div>
+        <div class="project">
+          <i
+            class="el-icon-s-help"
+            style="
+              background: white;
+              border-radius: 50%;
+              font-size: 20px;
+              margin-right: 8px;
+            "
+          />
+          <div class="title">智能操作平台</div>
+        </div>
         <MenuItems v-for="item in menus" :key="item.code" :value="item" />
       </el-menu>
     </el-aside>
@@ -74,7 +85,13 @@ export default {
   font-size: 20px;
   vertical-align: middle;
   text-align: center;
-  border-bottom: 1px solid #333;
   line-height: 47px;
+}
+.project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #666;
+  padding: 6px 0;
 }
 </style>
