@@ -4,7 +4,7 @@
       <el-radio-button :label="false">展开</el-radio-button>
       <el-radio-button :label="true">收起</el-radio-button>
     </el-radio-group> -->
-    我是顶部栏，内容可以填充
+    我是顶部栏，内容可以填充。
   </div>
 </template>
 

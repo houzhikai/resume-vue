@@ -56,7 +56,6 @@ export default {
 </script>
 <style scoped>
 .el-container {
-  /* margin: 20px auto; */
   height: 100%;
 }
 .el-aside {
